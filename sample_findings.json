@@ -1,0 +1,130 @@
+[
+  {
+    "time": "2026-11-12 02:45:45",
+    "severity": "CRITICAL",
+    "category": "Account Compromise",
+    "mitre": "T1078.004",
+    "actor": "j.smith",
+    "source_ip": "203.0.113.77",
+    "summary": "Successful console login as 'j.smith' from brute-forcing IP 203.0.113.77 without MFA",
+    "details": [
+      "14 failed attempts from this IP before the success",
+      "MFA used: No"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:50:20",
+    "severity": "CRITICAL",
+    "category": "Access Key Created",
+    "mitre": "T1098.001",
+    "actor": "j.smith",
+    "source_ip": "203.0.113.77",
+    "summary": "'j.smith' created access key AKIAEXAMPLEBACKDOOR1 for 'backup-svc'",
+    "details": [
+      "Key created for a different user (persistence pattern)",
+      "'j.smith' was compromised from 203.0.113.77 at 02:45:45"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:50:39",
+    "severity": "CRITICAL",
+    "category": "Admin Policy Attached",
+    "mitre": "T1098.003",
+    "actor": "j.smith",
+    "source_ip": "203.0.113.77",
+    "summary": "'j.smith' granted full admin rights to 'backup-svc'",
+    "details": [
+      "Policy: arn:aws:iam::aws:policy/AdministratorAccess",
+      "'j.smith' was compromised from 203.0.113.77 at 02:45:45"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:51:27",
+    "severity": "CRITICAL",
+    "category": "Logging Disabled",
+    "mitre": "T1562.008",
+    "actor": "j.smith",
+    "source_ip": "203.0.113.77",
+    "summary": "CloudTrail logging stopped by 'j.smith'",
+    "details": [
+      "Target: arn:aws:cloudtrail:us-east-1:111122223333:trail/org-trail",
+      "Events after this point may be missing",
+      "'j.smith' was compromised from 203.0.113.77 at 02:45:45"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:57:27",
+    "severity": "CRITICAL",
+    "category": "S3 Bucket Exposed",
+    "mitre": "T1530",
+    "actor": "backup-svc",
+    "source_ip": "198.51.100.200",
+    "summary": "'backup-svc' removed the public access block on bucket 'acme-customer-data'",
+    "details": [
+      "Used access key AKIAEXAMPLEBACKDOOR1 created by attacker-controlled 'j.smith' for 'backup-svc'"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:57:42",
+    "severity": "CRITICAL",
+    "category": "S3 Bucket Exposed",
+    "mitre": "T1530",
+    "actor": "backup-svc",
+    "source_ip": "198.51.100.200",
+    "summary": "'backup-svc' made public: bucket 'acme-customer-data'",
+    "details": [
+      "Used access key AKIAEXAMPLEBACKDOOR1 created by attacker-controlled 'j.smith' for 'backup-svc'"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:57:44",
+    "severity": "CRITICAL",
+    "category": "S3 Mass Download",
+    "mitre": "T1530",
+    "actor": "backup-svc",
+    "source_ip": "198.51.100.200",
+    "summary": "'backup-svc' downloaded 120 objects from 'acme-customer-data' (peak 120 in 10 min)",
+    "details": [
+      "Sample keys: exports/customers_000.csv, exports/customers_001.csv, exports/customers_002.csv",
+      "Used access key AKIAEXAMPLEBACKDOOR1 created by attacker-controlled 'j.smith' for 'backup-svc'"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:41:05",
+    "severity": "HIGH",
+    "category": "Console Brute Force",
+    "mitre": "T1110.001",
+    "actor": "j.smith",
+    "source_ip": "203.0.113.77",
+    "summary": "203.0.113.77 made 14 failed console logins (peak 14 in 10 min)",
+    "details": [
+      "Targeted: j.smith"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:46:25",
+    "severity": "HIGH",
+    "category": "Cloud Discovery Burst",
+    "mitre": "T1580",
+    "actor": "j.smith",
+    "source_ip": "203.0.113.77",
+    "summary": "'j.smith' called 20 different List/Describe/Get APIs within 5 minutes",
+    "details": [
+      "3 of 20 calls were AccessDenied (permission probing)",
+      "APIs: DescribeDBInstances, DescribeInstances, DescribeOrganization, DescribeSecurityGroups, DescribeTrails, DescribeVpcs, GetAccountAuthorizationDetails, GetBucketAcl ...",
+      "'j.smith' was compromised from 203.0.113.77 at 02:45:45"
+    ]
+  },
+  {
+    "time": "2026-11-12 02:49:58",
+    "severity": "HIGH",
+    "category": "New IAM User",
+    "mitre": "T1136.003",
+    "actor": "j.smith",
+    "source_ip": "203.0.113.77",
+    "summary": "'j.smith' created IAM user 'backup-svc'",
+    "details": [
+      "'j.smith' was compromised from 203.0.113.77 at 02:45:45"
+    ]
+  }
+]

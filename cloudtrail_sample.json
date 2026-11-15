@@ -1,0 +1,5404 @@
+{
+ "Records": [
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T00:00:44Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8000.zip"
+   },
+   "responseElements": null,
+   "eventID": "c2f40b3034775758",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T00:00:48Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "dd23f7b6a801cf8b",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T00:20:23Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8001.zip"
+   },
+   "responseElements": null,
+   "eventID": "6cecc2581bfa530d",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T00:20:27Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "a29c4db3d2083355",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T00:40:25Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8002.zip"
+   },
+   "responseElements": null,
+   "eventID": "10ba53d8e66eb118",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T00:40:29Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "b2ff51348161701f",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T01:00:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8003.zip"
+   },
+   "responseElements": null,
+   "eventID": "e369ab3d591d3569",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T01:00:46Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "67433a8667518339",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T01:20:47Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8004.zip"
+   },
+   "responseElements": null,
+   "eventID": "4f93de30ccd1118f",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T01:20:51Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "0490392aa9eb7262",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T01:40:22Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8005.zip"
+   },
+   "responseElements": null,
+   "eventID": "1e5876bf982e524e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T01:40:26Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "3f12cc0c75ffbff5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:00:10Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8006.zip"
+   },
+   "responseElements": null,
+   "eventID": "da1298c4cbb452ae",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:00:14Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "ade42791505078ba",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:20:44Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8007.zip"
+   },
+   "responseElements": null,
+   "eventID": "ea43fe43ebf96c57",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:20:48Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "750847919ac68d26",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:40:38Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8008.zip"
+   },
+   "responseElements": null,
+   "eventID": "cdd25aa143cd9d75",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "8c39d6bb337385ed",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:41:05Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "2167d343b5710cdb",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:41:18Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "2b8cac8fe7545280",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:41:40Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "1413b58cd1ea37fc",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:41:58Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "f3e1f4fc70806354",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:42:27Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "40c7c159d561f591",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:42:40Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "2663ba178df6073d",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:43:05Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "9b3c8f0059667df9",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:43:18Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "4999dee86e10d8ac",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:43:34Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "a24898ef0e531c17",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:44:00Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "6164b99c58e8abfc",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:44:14Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "5a384ca0355ac876",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:44:34Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "36b87e69b7a60ec1",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:44:52Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "7bebc77422d99277",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:45:16Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "6df9f7219cf8d97f",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:45:45Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Success"
+   },
+   "eventID": "28e3d33340bc0884",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:46:25Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "b61e20f738b08a05",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:46:35Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListUsers",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "9fd67893649866e0",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:46:43Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListRoles",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "c3424211cd4e51cd",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:46:54Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListPolicies",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "28ba4db2ef320f9e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:47:06Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListAttachedUserPolicies",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "b29983bc9f39d060",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:47:16Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetAccountAuthorizationDetails",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "07bd94830a14680d",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:47:24Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "6ffedc96a42ca3e6",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:47:33Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketPolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "f166df63c363be29",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:47:43Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "670370e8c7e29a0a",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:47:53Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "ead13c41399fcfd6",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:48:02Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcs",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "70a8211be451ef0c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:48:13Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "a2f4e8b9f7375d41",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:48:24Z",
+   "eventSource": "rds.amazonaws.com",
+   "eventName": "DescribeDBInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "9fa88bba24e1ba2d",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:48:33Z",
+   "eventSource": "lambda.amazonaws.com",
+   "eventName": "ListFunctions20150331",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "bf0d1338c339627c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:48:41Z",
+   "eventSource": "secretsmanager.amazonaws.com",
+   "eventName": "ListSecrets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "d02819d962ab0643",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:48:47Z",
+   "eventSource": "kms.amazonaws.com",
+   "eventName": "ListKeys",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "b1ac56a275f53e2a",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:48:52Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "DescribeTrails",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "15f6168557adf7db",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:49:01Z",
+   "eventSource": "guardduty.amazonaws.com",
+   "eventName": "ListDetectors",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "86f402487de1a7ac",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:49:12Z",
+   "eventSource": "organizations.amazonaws.com",
+   "eventName": "DescribeOrganization",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "23b8ef17ff195e1b",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:49:17Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListAccessKeys",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "f178bcbddbdce867",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:49:58Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": {
+    "userName": "backup-svc"
+   },
+   "responseElements": {
+    "user": {
+     "userName": "backup-svc"
+    }
+   },
+   "eventID": "a3b5c6c4320ffd46",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:50:20Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateAccessKey",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": {
+    "userName": "backup-svc"
+   },
+   "responseElements": {
+    "accessKey": {
+     "userName": "backup-svc",
+     "accessKeyId": "AKIAEXAMPLEBACKDOOR1",
+     "status": "Active"
+    }
+   },
+   "eventID": "1d1a63b571be74bc",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:50:39Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "AttachUserPolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": {
+    "userName": "backup-svc",
+    "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+   },
+   "responseElements": null,
+   "eventID": "3e36eee3aac04cfd",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:51:27Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "StopLogging",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.77",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA003071195237",
+    "arn": "arn:aws:iam::111122223333:user/j.smith",
+    "accountId": "111122223333",
+    "userName": "j.smith"
+   },
+   "requestParameters": {
+    "name": "arn:aws:cloudtrail:us-east-1:111122223333:trail/org-trail"
+   },
+   "responseElements": null,
+   "eventID": "0d606e0b4d21b0cb",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:27Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "DeletePublicAccessBlock",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data"
+   },
+   "responseElements": null,
+   "eventID": "ca7262657ddc4a1c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutBucketPolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "bucketPolicy": {
+     "Version": "2012-10-17",
+     "Statement": [
+      {
+       "Effect": "Allow",
+       "Principal": "*",
+       "Action": "s3:GetObject",
+       "Resource": "arn:aws:s3:::acme-customer-data/*"
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "eventID": "36646367b78c2f91",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:44Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_000.csv"
+   },
+   "responseElements": null,
+   "eventID": "54117a0e88f3ae91",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:46Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_001.csv"
+   },
+   "responseElements": null,
+   "eventID": "f82272a99478e208",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:47Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_002.csv"
+   },
+   "responseElements": null,
+   "eventID": "db3f0d8aae43321f",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:50Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_003.csv"
+   },
+   "responseElements": null,
+   "eventID": "270cf21df34407f8",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:53Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_004.csv"
+   },
+   "responseElements": null,
+   "eventID": "97490590c534272e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:56Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_005.csv"
+   },
+   "responseElements": null,
+   "eventID": "0b10b271a4ec780f",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:57:59Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_006.csv"
+   },
+   "responseElements": null,
+   "eventID": "7f0b4c558f78a664",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:01Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_007.csv"
+   },
+   "responseElements": null,
+   "eventID": "26101d6e040e5825",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:02Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_008.csv"
+   },
+   "responseElements": null,
+   "eventID": "fa5035167745f6e1",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:03Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_009.csv"
+   },
+   "responseElements": null,
+   "eventID": "df8ce433ea4adfc4",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:06Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_010.csv"
+   },
+   "responseElements": null,
+   "eventID": "9d823b35bba0cbd5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:08Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_011.csv"
+   },
+   "responseElements": null,
+   "eventID": "75223f21ee345182",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_012.csv"
+   },
+   "responseElements": null,
+   "eventID": "0556d1ddb8c273f1",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_013.csv"
+   },
+   "responseElements": null,
+   "eventID": "315baf27ca6cff02",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:13Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_014.csv"
+   },
+   "responseElements": null,
+   "eventID": "c0776b023caf3403",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:14Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_015.csv"
+   },
+   "responseElements": null,
+   "eventID": "0ad4994fa5d53bc4",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:17Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_016.csv"
+   },
+   "responseElements": null,
+   "eventID": "cc99eb12a1f3ab06",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:19Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_017.csv"
+   },
+   "responseElements": null,
+   "eventID": "b66c4ef77601648a",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:21Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_018.csv"
+   },
+   "responseElements": null,
+   "eventID": "4e91b1e1ac58bc7d",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:23Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_019.csv"
+   },
+   "responseElements": null,
+   "eventID": "b0f2badc066a2d52",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:25Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_020.csv"
+   },
+   "responseElements": null,
+   "eventID": "caceb3dd5a630143",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:28Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_021.csv"
+   },
+   "responseElements": null,
+   "eventID": "c8f4cee61a3aa135",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:29Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_022.csv"
+   },
+   "responseElements": null,
+   "eventID": "b7be9b2714c7f9be",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:30Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_023.csv"
+   },
+   "responseElements": null,
+   "eventID": "4c9c8aa7e8581381",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:33Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_024.csv"
+   },
+   "responseElements": null,
+   "eventID": "dbdfdb26a8dda2a5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:34Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_025.csv"
+   },
+   "responseElements": null,
+   "eventID": "af2b4fdb282c1ac0",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:35Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_026.csv"
+   },
+   "responseElements": null,
+   "eventID": "140abfd61b463d19",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:36Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_027.csv"
+   },
+   "responseElements": null,
+   "eventID": "a47bfe3f8ccf9b03",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:38Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_028.csv"
+   },
+   "responseElements": null,
+   "eventID": "987c63cf93d56de2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:39Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_029.csv"
+   },
+   "responseElements": null,
+   "eventID": "ea121242ec49f390",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:40Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_030.csv"
+   },
+   "responseElements": null,
+   "eventID": "3a387e526e3dacc9",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:43Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_031.csv"
+   },
+   "responseElements": null,
+   "eventID": "6a6b59c9c9c0c490",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:45Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_032.csv"
+   },
+   "responseElements": null,
+   "eventID": "8d359604d9fbe780",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:47Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_033.csv"
+   },
+   "responseElements": null,
+   "eventID": "be9ba399791c0523",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:48Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_034.csv"
+   },
+   "responseElements": null,
+   "eventID": "12e2ccc012e9831d",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:49Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_035.csv"
+   },
+   "responseElements": null,
+   "eventID": "a6445bd3d9267887",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:52Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_036.csv"
+   },
+   "responseElements": null,
+   "eventID": "5c643f1022db2ca5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:54Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_037.csv"
+   },
+   "responseElements": null,
+   "eventID": "60eef6fd948e6c15",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:55Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_038.csv"
+   },
+   "responseElements": null,
+   "eventID": "efe6900a000a1de2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:58Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_039.csv"
+   },
+   "responseElements": null,
+   "eventID": "f3bf77ece9aeabe9",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:58:59Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_040.csv"
+   },
+   "responseElements": null,
+   "eventID": "8a35863b0f278670",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:02Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_041.csv"
+   },
+   "responseElements": null,
+   "eventID": "1d74f444eeeff244",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:05Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_042.csv"
+   },
+   "responseElements": null,
+   "eventID": "65f3c0faf9348b5c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:07Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_043.csv"
+   },
+   "responseElements": null,
+   "eventID": "8fea159785a5a793",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:09Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_044.csv"
+   },
+   "responseElements": null,
+   "eventID": "b084410f27ea3e9c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:10Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_045.csv"
+   },
+   "responseElements": null,
+   "eventID": "d9f6bca7d86e01e0",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_046.csv"
+   },
+   "responseElements": null,
+   "eventID": "7c78397d4ca4cd0e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:14Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_047.csv"
+   },
+   "responseElements": null,
+   "eventID": "c470e5bc09e67139",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:17Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_048.csv"
+   },
+   "responseElements": null,
+   "eventID": "034ccac85289ab25",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:20Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_049.csv"
+   },
+   "responseElements": null,
+   "eventID": "16d5ec4a0e7b8cdb",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:21Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_050.csv"
+   },
+   "responseElements": null,
+   "eventID": "c307a9d7d1f78baf",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:23Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_051.csv"
+   },
+   "responseElements": null,
+   "eventID": "6fa0a125cd07f753",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:26Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_052.csv"
+   },
+   "responseElements": null,
+   "eventID": "65ae497d6bf5f8f7",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:28Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_053.csv"
+   },
+   "responseElements": null,
+   "eventID": "031392cb2c797a45",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:30Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_054.csv"
+   },
+   "responseElements": null,
+   "eventID": "acb7403ef7ac468a",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:31Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_055.csv"
+   },
+   "responseElements": null,
+   "eventID": "12cf8e3b308442bd",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:33Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_056.csv"
+   },
+   "responseElements": null,
+   "eventID": "168fc55030674371",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:36Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_057.csv"
+   },
+   "responseElements": null,
+   "eventID": "85e27e82a3c2e9d5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:37Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_058.csv"
+   },
+   "responseElements": null,
+   "eventID": "38d964b36afaf64c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:40Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_059.csv"
+   },
+   "responseElements": null,
+   "eventID": "1497184fd701b4a0",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:41Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_060.csv"
+   },
+   "responseElements": null,
+   "eventID": "2fa10751805f567c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:43Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_061.csv"
+   },
+   "responseElements": null,
+   "eventID": "6cd5c2ad05370ee5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:46Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_062.csv"
+   },
+   "responseElements": null,
+   "eventID": "c1a11dff8bf2b90f",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:48Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_063.csv"
+   },
+   "responseElements": null,
+   "eventID": "b6bfb1451ab31010",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:51Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_064.csv"
+   },
+   "responseElements": null,
+   "eventID": "481191a75247636b",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:52Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_065.csv"
+   },
+   "responseElements": null,
+   "eventID": "b5a5fdebff2cbecd",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:54Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_066.csv"
+   },
+   "responseElements": null,
+   "eventID": "d3c9d05b5de5d010",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:56Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_067.csv"
+   },
+   "responseElements": null,
+   "eventID": "c6f5da8c0653b587",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T02:59:58Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_068.csv"
+   },
+   "responseElements": null,
+   "eventID": "9764535895a1024f",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_069.csv"
+   },
+   "responseElements": null,
+   "eventID": "b2d9e691e9dfa233",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:01Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_070.csv"
+   },
+   "responseElements": null,
+   "eventID": "e550eabc1a7e67c3",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:04Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8009.zip"
+   },
+   "responseElements": null,
+   "eventID": "868375cba36aec07",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:04Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_071.csv"
+   },
+   "responseElements": null,
+   "eventID": "b261a84d06faa3fb",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:05Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_072.csv"
+   },
+   "responseElements": null,
+   "eventID": "b07bb15366f54417",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:08Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "9e615e24f83037f4",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:08Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_073.csv"
+   },
+   "responseElements": null,
+   "eventID": "faa4876465f73e39",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:09Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_074.csv"
+   },
+   "responseElements": null,
+   "eventID": "66244131cd05f916",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:10Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_075.csv"
+   },
+   "responseElements": null,
+   "eventID": "a4de0fa4faf4bf35",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_076.csv"
+   },
+   "responseElements": null,
+   "eventID": "9d571882ada76f34",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:13Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_077.csv"
+   },
+   "responseElements": null,
+   "eventID": "74dbe96fb8925066",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:14Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_078.csv"
+   },
+   "responseElements": null,
+   "eventID": "52458622fdf64cc2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:17Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_079.csv"
+   },
+   "responseElements": null,
+   "eventID": "9d5da5cb860f5959",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:19Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_080.csv"
+   },
+   "responseElements": null,
+   "eventID": "82d87cbd8fbf0769",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:20Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_081.csv"
+   },
+   "responseElements": null,
+   "eventID": "759a7e0616ea0c7e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:23Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_082.csv"
+   },
+   "responseElements": null,
+   "eventID": "db65c140ac6cad99",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:25Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_083.csv"
+   },
+   "responseElements": null,
+   "eventID": "5f2d6707bed86e62",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:26Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_084.csv"
+   },
+   "responseElements": null,
+   "eventID": "256a3091250b68ac",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:27Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_085.csv"
+   },
+   "responseElements": null,
+   "eventID": "cd5eaa263a62832d",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:30Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_086.csv"
+   },
+   "responseElements": null,
+   "eventID": "29ef1e5a68a2ad5c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:31Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_087.csv"
+   },
+   "responseElements": null,
+   "eventID": "a9a2b599338b7fb8",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:33Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_088.csv"
+   },
+   "responseElements": null,
+   "eventID": "7bfb015f62ec9678",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:35Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_089.csv"
+   },
+   "responseElements": null,
+   "eventID": "5f956c9311ef9cb5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:38Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_090.csv"
+   },
+   "responseElements": null,
+   "eventID": "29dafdc637422ffe",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:41Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_091.csv"
+   },
+   "responseElements": null,
+   "eventID": "78e97e8ae0bd6d10",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:43Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_092.csv"
+   },
+   "responseElements": null,
+   "eventID": "8a7e5c09cdea15e2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:44Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_093.csv"
+   },
+   "responseElements": null,
+   "eventID": "edc65635ac996c7c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:46Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_094.csv"
+   },
+   "responseElements": null,
+   "eventID": "41b5ecbf7bff8ae1",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:47Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_095.csv"
+   },
+   "responseElements": null,
+   "eventID": "1bc95da8bb3f9567",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:48Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_096.csv"
+   },
+   "responseElements": null,
+   "eventID": "e64f8febe0026ed8",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:49Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_097.csv"
+   },
+   "responseElements": null,
+   "eventID": "b2fefd09b4588ab0",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:50Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_098.csv"
+   },
+   "responseElements": null,
+   "eventID": "0b315a1026e252b7",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:53Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_099.csv"
+   },
+   "responseElements": null,
+   "eventID": "0e3c364800948ef7",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:54Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_100.csv"
+   },
+   "responseElements": null,
+   "eventID": "5a0a0addc992c017",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:55Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_101.csv"
+   },
+   "responseElements": null,
+   "eventID": "33010b254f56e298",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:00:58Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_102.csv"
+   },
+   "responseElements": null,
+   "eventID": "bb100261101d7d23",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:01Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_103.csv"
+   },
+   "responseElements": null,
+   "eventID": "9f18cd806c19cefc",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:04Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_104.csv"
+   },
+   "responseElements": null,
+   "eventID": "ec51517e927fa5fd",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:06Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_105.csv"
+   },
+   "responseElements": null,
+   "eventID": "f3fe1593bb023777",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:08Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_106.csv"
+   },
+   "responseElements": null,
+   "eventID": "3318e2bc1732b0ca",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:09Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_107.csv"
+   },
+   "responseElements": null,
+   "eventID": "d51ceddab7795459",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_108.csv"
+   },
+   "responseElements": null,
+   "eventID": "37709ac0b69e2dbb",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:14Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_109.csv"
+   },
+   "responseElements": null,
+   "eventID": "fe66d6cf87c2d1c6",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:17Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_110.csv"
+   },
+   "responseElements": null,
+   "eventID": "0e89d6a9e8ebd27c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:20Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_111.csv"
+   },
+   "responseElements": null,
+   "eventID": "3e0fe3aeeb7cc914",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:21Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_112.csv"
+   },
+   "responseElements": null,
+   "eventID": "8e5286064bc94eb2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:23Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_113.csv"
+   },
+   "responseElements": null,
+   "eventID": "52ffc41b494ee356",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:25Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_114.csv"
+   },
+   "responseElements": null,
+   "eventID": "0b153a85ea4259db",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:27Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_115.csv"
+   },
+   "responseElements": null,
+   "eventID": "5212bf356ba3d765",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:29Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_116.csv"
+   },
+   "responseElements": null,
+   "eventID": "16c16e4cb052cf64",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:32Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_117.csv"
+   },
+   "responseElements": null,
+   "eventID": "8a807989e672389e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:35Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_118.csv"
+   },
+   "responseElements": null,
+   "eventID": "8934d2f644d07f24",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:01:37Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.200",
+   "userAgent": "aws-cli/2.17.0 Python/3.11.8 Linux/6.5 exe/x86_64",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA002707006814",
+    "arn": "arn:aws:iam::111122223333:user/backup-svc",
+    "accountId": "111122223333",
+    "userName": "backup-svc",
+    "accessKeyId": "AKIAEXAMPLEBACKDOOR1"
+   },
+   "requestParameters": {
+    "bucketName": "acme-customer-data",
+    "key": "exports/customers_119.csv"
+   },
+   "responseElements": null,
+   "eventID": "e019cf5f08d74c5a",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:20:36Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8010.zip"
+   },
+   "responseElements": null,
+   "eventID": "0b3bbf03c6047157",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:20:40Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "684ff42b127e2cc8",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:40:41Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8011.zip"
+   },
+   "responseElements": null,
+   "eventID": "9ea7a4fbe6e2343e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T03:40:45Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "acf40c450dc7f078",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T04:00:01Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8012.zip"
+   },
+   "responseElements": null,
+   "eventID": "3262c798a28f38bd",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T04:00:05Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "1ac66dea32700980",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T04:20:18Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8013.zip"
+   },
+   "responseElements": null,
+   "eventID": "73cbc7fd3252b976",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T04:20:22Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "eaa1c37bbfc5c2a1",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T04:40:36Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8014.zip"
+   },
+   "responseElements": null,
+   "eventID": "0330f04d5074d85b",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T04:40:40Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "efd6a13ecb9fd223",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T05:00:39Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8015.zip"
+   },
+   "responseElements": null,
+   "eventID": "6ea29bd05566488c",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T05:00:43Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "ca5976a69275bab2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T05:20:14Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8016.zip"
+   },
+   "responseElements": null,
+   "eventID": "0bbbaed58cb33116",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T05:20:18Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "fa892d8dc6a7ba53",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T05:40:35Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8017.zip"
+   },
+   "responseElements": null,
+   "eventID": "a5504f71b9fe9f2d",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T05:40:39Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "d932b2314eab219a",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T06:00:13Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8018.zip"
+   },
+   "responseElements": null,
+   "eventID": "f97646d69c84ebd8",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T06:00:17Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "8771830d2e488841",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T06:20:33Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8019.zip"
+   },
+   "responseElements": null,
+   "eventID": "2f5b55d587485ff5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T06:20:37Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "a9a29c4cc67b74e2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T06:40:03Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8020.zip"
+   },
+   "responseElements": null,
+   "eventID": "7ea20251bf11b34d",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T06:40:07Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "bc8b306fb421b5ba",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T07:00:37Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8021.zip"
+   },
+   "responseElements": null,
+   "eventID": "f9307a7174870975",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T07:00:41Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "0649d0ebe6171071",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T07:20:33Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8022.zip"
+   },
+   "responseElements": null,
+   "eventID": "8ad5f5117cd28612",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T07:20:37Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "a779cfe5c08eeee9",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T07:40:46Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8023.zip"
+   },
+   "responseElements": null,
+   "eventID": "5a449457eed81733",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T07:40:50Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "8ef1fb25bc15526a",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:00:36Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "builds/8024.zip"
+   },
+   "responseElements": null,
+   "eventID": "41dd9a9fa508c8e8",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:00:40Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.50",
+   "userAgent": "aws-sdk-js/3.600",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/github-actions-deploy/run-8812",
+    "accountId": "111122223333",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "userName": "github-actions-deploy"
+     }
+    }
+   },
+   "requestParameters": {
+    "bucketName": "acme-build-artifacts",
+    "key": "cache/deps.tar.gz"
+   },
+   "responseElements": null,
+   "eventID": "111908394303f922",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:02:11Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA000663665735",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333",
+    "userName": "alice"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Success"
+   },
+   "eventID": "ecefe37b9e250d03",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "Yes",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:05:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA000663665735",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333",
+    "userName": "alice"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "b5bab1cd888417a5",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:12:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA000663665735",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333",
+    "userName": "alice"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "922badb05da83cff",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:19:00Z",
+   "eventSource": "cloudwatch.amazonaws.com",
+   "eventName": "DescribeAlarms",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA000663665735",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333",
+    "userName": "alice"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "bb5d75b895f628f2",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:26:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA000663665735",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333",
+    "userName": "alice"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "c6737b8b2a6a7b5f",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:33:00Z",
+   "eventSource": "rds.amazonaws.com",
+   "eventName": "DescribeDBInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA000663665735",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333",
+    "userName": "alice"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "5531ae6dd30a286e",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T08:40:00Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListUsers",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA000663665735",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333",
+    "userName": "alice"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "a28718e5623a7a75",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T09:14:03Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA004123767104",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333",
+    "userName": "bob"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "5c1ed35fca2410fd",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T09:14:40Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA004123767104",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333",
+    "userName": "bob"
+   },
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Success"
+   },
+   "eventID": "fee29f53ebf644bb",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "Yes",
+    "LoginTo": "https://console.aws.amazon.com/"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "eventTime": "2026-11-12T09:20:00Z",
+   "eventSource": "lambda.amazonaws.com",
+   "eventName": "ListFunctions20150331",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "192.0.2.10",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA004123767104",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333",
+    "userName": "bob"
+   },
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "643cb56d4ec10fc6",
+   "recipientAccountId": "111122223333"
+  }
+ ]
+}

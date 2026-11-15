@@ -1,0 +1,43 @@
+[*] Parsed 221 CloudTrail records from cloudtrail_sample.json
+
+[CRITICAL] Account Compromise: Successful console login as 'j.smith' from brute-forcing IP 203.0.113.77 without MFA  (T1078.004)
+      - 14 failed attempts from this IP before the success
+      - MFA used: No
+[CRITICAL] Access Key Created: 'j.smith' created access key AKIAEXAMPLEBACKDOOR1 for 'backup-svc'  (T1098.001)
+      - Key created for a different user (persistence pattern)
+      - 'j.smith' was compromised from 203.0.113.77 at 02:45:45
+[CRITICAL] Admin Policy Attached: 'j.smith' granted full admin rights to 'backup-svc'  (T1098.003)
+      - Policy: arn:aws:iam::aws:policy/AdministratorAccess
+      - 'j.smith' was compromised from 203.0.113.77 at 02:45:45
+[CRITICAL] Logging Disabled: CloudTrail logging stopped by 'j.smith'  (T1562.008)
+      - Target: arn:aws:cloudtrail:us-east-1:111122223333:trail/org-trail
+      - Events after this point may be missing
+      - 'j.smith' was compromised from 203.0.113.77 at 02:45:45
+[CRITICAL] S3 Bucket Exposed: 'backup-svc' removed the public access block on bucket 'acme-customer-data'  (T1530)
+      - Used access key AKIAEXAMPLEBACKDOOR1 created by attacker-controlled 'j.smith' for 'backup-svc'
+[CRITICAL] S3 Bucket Exposed: 'backup-svc' made public: bucket 'acme-customer-data'  (T1530)
+      - Used access key AKIAEXAMPLEBACKDOOR1 created by attacker-controlled 'j.smith' for 'backup-svc'
+[CRITICAL] S3 Mass Download: 'backup-svc' downloaded 120 objects from 'acme-customer-data' (peak 120 in 10 min)  (T1530)
+      - Sample keys: exports/customers_000.csv, exports/customers_001.csv, exports/customers_002.csv
+      - Used access key AKIAEXAMPLEBACKDOOR1 created by attacker-controlled 'j.smith' for 'backup-svc'
+[HIGH] Console Brute Force: 203.0.113.77 made 14 failed console logins (peak 14 in 10 min)  (T1110.001)
+      - Targeted: j.smith
+[HIGH] Cloud Discovery Burst: 'j.smith' called 20 different List/Describe/Get APIs within 5 minutes  (T1580)
+      - 3 of 20 calls were AccessDenied (permission probing)
+      - APIs: DescribeDBInstances, DescribeInstances, DescribeOrganization, DescribeSecurityGroups, DescribeTrails, DescribeVpcs, GetAccountAuthorizationDetails, GetBucketAcl ...
+      - 'j.smith' was compromised from 203.0.113.77 at 02:45:45
+[HIGH] New IAM User: 'j.smith' created IAM user 'backup-svc'  (T1136.003)
+      - 'j.smith' was compromised from 203.0.113.77 at 02:45:45
+[+] 10 findings
+
+[*] Attack timeline
+    2026-11-12 02:41:05  Console Brute Force        j.smith      203.0.113.77
+    2026-11-12 02:45:45  Account Compromise         j.smith      203.0.113.77
+    2026-11-12 02:46:25  Cloud Discovery Burst      j.smith      203.0.113.77
+    2026-11-12 02:49:58  New IAM User               j.smith      203.0.113.77
+    2026-11-12 02:50:20  Access Key Created         j.smith      203.0.113.77
+    2026-11-12 02:50:39  Admin Policy Attached      j.smith      203.0.113.77
+    2026-11-12 02:51:27  Logging Disabled           j.smith      203.0.113.77
+    2026-11-12 02:57:27  S3 Bucket Exposed          backup-svc   198.51.100.200
+    2026-11-12 02:57:42  S3 Bucket Exposed          backup-svc   198.51.100.200
+    2026-11-12 02:57:44  S3 Mass Download           backup-svc   198.51.100.200
